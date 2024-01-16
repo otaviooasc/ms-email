@@ -24,5 +24,6 @@ O Projeto Email simplifica o envio de emails por meio de uma API, complementando
      body: 'Obrigado por se cadastrar!',
    };
    projetoEmailService.enviarEmail(emailInfo);
+´´´
 
-   <img width="636" alt="image" src="https://github.com/otaviooasc/ms-email/assets/52991335/d31cdd3c-ae81-45ed-b8fa-372fd2d37a05">
+<img width="636" alt="image" src="https://github.com/otaviooasc/ms-email/assets/52991335/d31cdd3c-ae81-45ed-b8fa-372fd2d37a05">
