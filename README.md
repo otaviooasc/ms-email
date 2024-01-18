@@ -10,37 +10,12 @@ O Projeto Email simplifica o envio de emails por meio de uma API, complementando
 - Modelos de Email Personalizados
 - Anexos
 - Programação de Envios
-- Log de Envios
 
-## Integração com a API User
-
-1. **Cadastro de Usuário:** Ao cadastrar um novo usuário pela API User, acione o Projeto Email para enviar um email de boas-vindas.
-
-   ```java
-   @Data
-   @Entity
-   @Table(name = "TB_EMAIL")
-   public class EmailModel implements Serializable {
-
-       @Id
-       @GeneratedValue(strategy = GenerationType.AUTO)
-       private UUID emailId;
-
-       private UUID userId;
-
-       private String emailFrom;
-
-       private String emailTo;
-
-       private String subject;
-
-       @Column(columnDefinition = "TEXT")
-       private String text;
-
-       private LocalDateTime sendDateEmail;
-
-       private StatusEmail statusEmail;
-   }
+## Ambiente de Desenvolvimento
+* Linguagem: Java
+* Framework: Spring Boot
+* Banco de Dados: PostgreSQL
+* Comunicação assíncrona: RabbitMQ
 
 <img width="636" alt="image" src="https://github.com/otaviooasc/ms-email/assets/52991335/d31cdd3c-ae81-45ed-b8fa-372fd2d37a05">
 
