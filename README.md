@@ -27,3 +27,5 @@ O Projeto Email simplifica o envio de emails por meio de uma API, complementando
 ´´´
 
 <img width="636" alt="image" src="https://github.com/otaviooasc/ms-email/assets/52991335/d31cdd3c-ae81-45ed-b8fa-372fd2d37a05">
+
+## OBS: Para enviar o email altere o application.properties, coloque seu e email e sua senha de APP.
